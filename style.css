@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    /* padding:; */
+    text-align: center;
+    /* font-family: fantasy, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: #40514E;
+}
+h1{
+    /* margin-top: 0; */
+    /* width: 10%; */
+    /* margin:0 auto 0  auto; */
+
+    /* font-size: 90px; */
+    /* 100% = 16px = 1em */
+    /* so for 90px 90/16*100=562.5% */
+    font-size:562.5%;
+    /* rem is ignor parent font size setting anfd appy child font setting  */
+    margin: 40px auto 0 auto;
+    color: #66BFBF;
+    /* line-height:4; */
+}
+h2{
+    font-size:2.5rem ;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+h3{
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 7px;
+    width:4%;
+    border-color: gray;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+
+
+.top{
+    background-color:#E4F9F5 ;
+}
+
+.upper{
+    height: 30px;
+}
+.mountain{
+    position: relative;
+    /* bottom: ; */
+    padding-bottom: 0px;
+}
+
+.cloud1{
+    position:relative;
+    top:6px;
+    left: 220px;
+
+    /* position: absolute;
+    right: 300px;
+    top: 40px; */
+}
+.cloud2{
+    position: relative;
+    right: 220px;
+    
+    /* position: absolute;
+    bottom: 300px;
+    left:300px; */
+
+}
+.profilepic{
+    height: 200px;
+    border-radius: 100%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    /* line-height: 2 ; */
+    /* line height have not any unit  */
+}
+.cmpimg{
+    border-radius: 100%;
+    width:25%;
+    float: left;
+    padding-right: 20px;
+}
+/* float me img ke aasd pass aa jata hai jo bhi likha hota hai wo  */
+.chilimg{
+    border-radius: 100%;
+    width:25%;
+    float: right;
+    padding-left: 20px;
+}
+
+/* clear me left ya right jo bhi hai wo side ke margine me kuch bhi nahi aata hota hai to nikal jata hai 
+  */
+/* means left hai to left margin is clear  */
+/* .com-description{
+    clear: left;
+}
+
+.chili-description{
+    clear:right;
+} */
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    height: 80px;
+    background-color: #66BFBF;
+    padding: 50px 0 20PX;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.footer-link{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #EFF6F6;
+}
+.contact-msg{ 
+    width: 40%;
+    margin: 40px auto 60px;
+}
+/* .btn{
+    color: aliceblue;
+    background-color: #66BFBF;
+    line-height: 8 ;
+} */
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4ED);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4ED);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4ED);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4ED);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4ED);
+    text-decoration: none;
+  }
+.copyr{
+    padding: 20px 0;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
